@@ -1,0 +1,54 @@
+
+body
+{
+    text-align: center;
+    background-image: url(./images/back1.jpg);
+
+}
+#main
+{
+    font-size: 70px;
+    text-align: center;
+    color: aquamarine;
+    border: 10px solid rgb(34, 17, 17);
+}
+
+.information
+{
+color: rgb(255, 255, 255) ;
+font-size: 18px;
+border: 10px ridge red;
+margin: 40px;
+width: 25%;
+float: left;
+size: 20%;
+padding: 23px;  
+}
+#mainp
+{
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(1, 1, 1);
+}
+img 
+{
+    width: 100%;
+}
+#logo
+{
+    color: violet;
+    font-size: 60px;
+    font-family: fantasy;
+}
+#first
+{
+    color: black;
+}
+#second
+{
+    color: black;
+}
+#third
+{
+    color: black;
+}

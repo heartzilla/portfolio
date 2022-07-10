@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+   .explore{
+    grid-template-columns: auto;
+    
+   }
+   .history-inside{
+  
+    grid-template-columns: auto;
+    
+   }
+}

@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+ 
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  transition: 0.7s ease;
+}
+.nav-item {
+  list-style-type: none;
+  padding-left: 80px;
+  color: white;
+}
+.nav-item a:hover{
+    color: red;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+.contact {
+  border: 1px solid white;
+  margin-top: 10px;
+  padding: 15px 30px;
+  transition: 0.7s ease;
+}
+.contact:hover{
+    background-color: lightgray;
+}
+#home {
+  color: #fac422;
+}
+.fire {
+  color: #fdd04a;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main {
+  width: 100%;
+  height: 1069px;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  position: static;
+  position: relative;
+}
+#facebook {
+  display: flex;
+  justify-content: space-evenly;
+  transform: rotate(270deg);
+  position: absolute;
+  width: 300px;
+  top: 55%;
+  right: 83%;
+  color: white;
+  opacity: 0.5;
+  font-size: 11px;
+}
+.left {
+  width: 60%;
+  margin-top: 11%;
+  margin-left: 11%;
+  display: flex;
+  align-items: center;
+}
+#future {
+  color: #57b8ff;
+}
+.left h1 {
+  color: #ffffff;
+  font-size: 72px;
+  padding: 30px 0 30px 0;
+}
+#lorem {
+  color: #999999;
+  font-size: 20px;
+}
+.learn {
+  display: flex;
+  justify-content: start;
+  padding-top: 40px;
+}
+.explore {
+  border: 1px solid #57b8ff;
+  background-color: #57b8ff;
+  padding: 20px 30px;
+  margin-right: 30px;
+  transition: 0.7s ease;
+}
+.explore:hover{
+    background-color: lightgray;
+}
+.view {
+  border: 1px solid transparent;
+  background-color: transparent;
+  padding: 15px 30px;
+  margin-right: 30px;
+}
+.explore a,
+.view a {
+  text-decoration: none;
+  color: white;
+}
+.counter {
+  position: absolute;
+  right: 7.7%;
+}
+.sponsors {
+  width: 100%;
+  height: 542px;
+  background-color: #fdd04a;
+
+  text-align: center;
+}
+.sponsors h1 {
+  font-size: 48px;
+  padding-top: 128px;
+}
+.sponsors p {
+  padding-top: 44px;
+  padding-bottom: 51.79px;
+}
+.fortnite {
+  width: 100%;
+  height: 1072px;
+  background-image: url(./images/fort.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fortnite-text {
+  text-align: center;
+  padding-top: 136px;
+  padding-bottom: 22px;
+}
+.fortnite-text h1 {
+  color: white;
+  font-size: 64px;
+  padding-bottom: 39px;
+}
+.gameplay {
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  padding: 35px 36px 70px 70px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 15px;
+  text-align: left;
+}
+.gameplay h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.gameplay p {
+  color: #dfdfdfcc;
+  padding-top: 19px;
+  font-size: 18px;
+  padding-bottom: 39px;
+  line-height: 28px;
+  padding-left: 50px;
+}
+.gameplay i {
+  padding-right: 15px;
+  transform: rotate(45deg);
+  margin-right: 10px;
+  color: #57b8ff;
+}
+.undergaming {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.eraofcloud {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 130px;
+}
+#era {
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 38px;
+  font-size: 64px;
+}
+.character {
+  height: 695px;
+  background-color: #262d37;
+  display: flex;
+  justify-content: space-evenly;
+}
+.character .left-text {
+  padding-top: 89px;
+}
+.tinypic {
+  padding-top: 65px;
+}
+.tinypic img {
+  border-radius: 40px;
+  border: 10px solid #455161;
+  margin-right: 30px;
+}
+.screenshots {
+  display: flex;
+}
+.screenshots img {
+  width: 635px;
+}
+.smooth {
+  position: relative;
+}
+.smooth h1 {
+  position: absolute;
+  right: 30%;
+  top: 50%;
+  font-size: 48px;
+  color: #ffffff;
+}
+.compass {
+  position: absolute;
+  right: 45%;
+  top: 38%;
+  font-size: 100px;
+  color: #ffffff;
+}
+.articles {
+  background-color: black;
+  padding-left: 60px;
+}
+#future1 {
+  padding-top: 136px;
+  padding-bottom: 22px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+}
+#era1 {
+  font-size: 64px;
+  color: white;
+}
+.left-text2
+{
+    width: 50%;
+}
+.left-text2 .learn {
+  display: flex;
+  justify-content: right;
+  padding-bottom: 70px;
+}
+.scorpion{
+    padding-top: 68px;
+}
+.scorpion img {
+  border-radius: 45px;
+}
+#apr {
+  color: #57b8ff;
+  font-size: 18px;
+  padding-top: 54px;
+  padding-bottom: 28px;
+}
+.scorpion h1{
+    color: #FFFFFF;
+}
+#apr1 {
+    color: #57b8ff;
+    font-size: 16px;
+    padding-top: 54px;
+    padding-bottom: 28px;
+  }
+.leftgame{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+#h1es{
+    font-size: 23px;
+    text-align: left;
+}
+.bottomlearn{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 380px;
+    padding-left: 20px;
+}
+#scorpion h1{
+    color: #FFFFFF;
+}
+#scorpion img{
+    border-radius: 30px;
+}
+#scorpion{
+    
+    padding-top: 20px;
+    padding-left: 80px ;
+    
+}
+.rightgame{
+    position: relative;
+}
+.rightgame .learn{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+}
+.gamingcom{
+    height: 683px;
+    background-image: url(./images/backor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gamingcomtext h1
+{
+    font-size: 72px;
+    text-align: center;
+    padding-top: 126px;
+    padding-bottom: 51px;
+}
+.gamingcomtext p{
+    text-align: center;
+    color: #555555;
+    padding-bottom: 45px;
+}
+#email{
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    padding-left: 20px;
+    font-family: "Orbitron", sans-serif;
+}
+#submit{
+    padding: 13px;
+    background-color: #57B8FF;
+    color: white;
+    border: 1px solid transparent;
+    font-family: "Orbitron", sans-serif;
+    transition: 0.7s ease;
+}
+#submit:hover{
+    background-color: lightgrey;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.footer
+{
+    display: flex;
+    background-color: #222730;
+    padding-top: 141.77px;
+    height: 460px;
+}
+.infinizai{
+    padding-left: 60px;
+}
+.footer .infinizai img{
+    width: 40%;
+}
+.footer .infinizai p{
+    color: #999999;
+    font-size: 15px;
+    line-height: 25px;
+}
+.menuitems{
+    display: flex;
+    padding-left: 60px;
+}
+.social{
+    padding-left: 200px;
+}
+
+.menuitems h5{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-bottom: 23px;
+}
+.menuitems li{
+    list-style-type: none;
+}
+.menuitems a:hover{
+    color: red;
+}
+.menuitems a{
+    text-decoration: none;
+    line-height: 37.5px;
+    color: #999999;
+    transition: 0.7s ease;
+    
+}
+.squad{
+    width: 48px;
+    height: 48px;
+    background-color: rgb(81, 80, 80);
+   margin-left: 8px;
+}
+.squad1{
+    display: flex;
+}
+.squad:hover{
+    background-color: #57B8FF;
+}
+.foot hr{
+    color: #060707;
+}
+.foot{
+    text-align: center;
+    background-color: #262d37;
+    padding: 30px 30px;
+    
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    transition: 0.7s ease;
+}
+.foot a:hover{
+    color: blue;
+}
