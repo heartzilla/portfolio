@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+}
+li
+{
+    list-style-type: none;
+  
+}
+.header ul li a
+{
+    color: #FFFFFF;
+}
+.header{
+    display: flex;
+    justify-content: left;
+    padding: 20px 20px;
+    font-size: 1.3em;
+    color: #FFFFFF;
+}
+.phy
+{
+    display: flex;
+}
+#phy
+{
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.button
+{
+   margin-left: 500px;
+   background-color: #23A6F0;
+   border: 1px solid grey;
+   border-radius: 5px;
+   padding: 10px; 
+}
+#a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.background
+{
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(./images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 2;
+}
+.container
+{
+    color: #FFFFFF;
+   height: 50vh;
+   width: 50%;
+   align-items: center;
+   margin-left: 280px;
+   margin-top: 200px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+.text h1
+{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 2px;
+}
+.text
+{
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+.knopka
+{ 
+   
+    padding-top: 20px;
+    display: flex;
+    text-align: center  ;
+}
+.soft
+{
+    background-color: #23A6F0;
+    width: 15%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 13px 20px;
+}
+.soft1
+{
+    margin-left: 20px;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 30px;
+    width: 15%;
+    padding: 13px 10px;
+}
+a{
+    text-decoration: none;
+}
+.book a
+{
+    color: #FFFFFF;
+}
+.book
+{
+    background-color: #23A6F0;
+    width: 70%;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+    margin: 20px;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+}
+form
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    border-style: none;
+    margin: 60px;
+    background-color: #FFFFFF;
+    height: 60vh;
+    padding: 40px; 
+    width: 280px;
+}
+fieldset
+{
+    margin-top: 20px;
+    height: 100vh;
+    border-style: none; 
+}
+label, input, select
+{
+   margin: 15px;
+}
+#book
+{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.all
+{
+    display: flex;
+}
+#fname
+{
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(238, 236, 236);
+}
+#fname1
+{
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+    padding: 10px;
+    width: 220px;
+    background-color: rgb(238, 236, 236); 
+}
+.p
+{
+    background-color:#8EC2F2;
+    width: 65%;
+    padding: 45px;
+    border: 1px solid #8EC2F2;
+    border-radius: 10px;
+    text-align:center;
+   
+}
+.p2
+{
+    background-color: white;
+    border: 1px solid #8EC2F2;
+    border-radius: 10px;
+    width: 65%;
+    padding: 45px;
+    text-align: justify;
+    color: #737373;  
+}
+
+.boxx
+{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.box
+{
+    padding-left: 10px;
+}
+.box p
+{
+    color: #FFFFFF;
+}
+.p2 a
+{
+    color: #23A6F0;
+}
+
+
+.main2
+{
+    margin-top: 160px;
+    text-align: center;
+    height: 700px;
+}
+
+.main2 h1
+{
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.head p
+{
+    color: #737373;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+#icon
+{
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius:200%;
+    border-style: none;
+    height: 40px;
+    width: 30%; 
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color:#23A6F0;
+}
+.footer
+{
+    margin: auto;
+    height: 338px;
+    display: flex;
+    justify-content: center;
+    
+}
+.table
+{
+   padding: 40px;
+}
+.table ul h2 
+{
+    color: black;
+}
+.table ul a 
+{
+    color: #737373;
+    
+}
+.table ul i
+{
+    color:#23A6F0;
+    padding-left: 10px;
+}
+.table ul
+{
+    padding-bottom: 15px;
+}
+.footer2
+{
+    color: #737373;
+    height: 30px;
+    padding: 30px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+.footer2 a 
+{
+    color: #737373;
+}
