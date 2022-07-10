@@ -1,0 +1,136 @@
+
+.left h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+body{
+    background-color: rgb(255, 204, 204);
+    font-family: 'Raleway', sans-serif;
+}
+.left h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+main{
+    width: 80%;
+}
+hr{
+    color: rgb(174, 172, 172);
+}
+.left{
+    width: 14%;
+    border: 1px solid lightgray;
+    background-color: rgb(243, 241, 241);
+    text-align: left;
+    padding: 0.01em 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 450px;
+}
+.left i{
+   padding-right: 5px;
+   
+}
+form input{
+    padding: 12px ;
+    width: 80%;
+    border: 1px solid lightgray;
+}
+.search{
+    background-color: rgb(4, 169, 4);
+    width: 83%;
+   text-align: center;
+   padding-top: 0.1px;
+   padding-bottom: 0.2px;
+   padding-right: 10px;
+   padding-left: 10px;
+   color: white;
+}
+.search:hover{
+    color: black;
+    background-color: rgb(204, 204, 204);
+}
+.left-bottom{
+    line-height: 2;
+}
+.main{
+    position: relative;
+    height: 200vh;
+    display: flex;
+    justify-content: center;   
+}
+.apart img{
+    width: 686px;
+    height: 381.109px;
+    padding-left: 20px;
+   
+}
+.living-room{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.living-room img{
+    width: 159.484px;
+    height: 88.594px;
+    padding-left: 17px;
+    
+}
+.right{
+    width: 38.4%;
+    position: absolute;
+    left: 40%;
+    border-right: 1px solid lightgray;
+}
+#right{
+  color:#4caf50 ;  
+}
+.info-right{
+    padding-left: 30px; 
+}
+
+.info-left{
+    padding-left: 150px;
+}
+.info h4{
+    margin-left: 35px;
+
+}
+.living-room img:hover{
+    opacity: 0.5;
+}
+.container-item{
+   display: flex; 
+}
+.living{
+    padding-right: 20px;
+}
+.hr{
+    width: 90%;
+    opacity: 0.3;
+}
+.card{
+    padding-left: 3px;
+}
+.search1{
+    background-color: rgb(4, 169, 4);
+    width: 30%;
+   text-align: center;
+   padding-top: 0.1px;
+   padding-bottom: 0.1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   color: white;
+}
+.search1:hover{
+    color: black;
+    background-color: rgb(204, 204, 204);  
+}
+.info h2{
+    margin-left: 30px;
+}
+
+

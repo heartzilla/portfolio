@@ -287,8 +287,8 @@ width: 22%;
     color: rgba(255, 255, 255, 1);
     border-bottom: 3px solid rgba(255, 255, 255, 1);
   }
-  .project-item{
-    box-shadow: 10px 10px 20px rgb(57, 111, 111);
+  .project-item:hover{
+    box-shadow: 10px 8px 30px rgb(106, 126, 126);
   }
 }
 .last-quest{

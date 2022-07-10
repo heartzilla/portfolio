@@ -1,0 +1,79 @@
+.RTL {
+  direction: rtl;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(33, 31, 31);
+}
+
+.container .navbar-brand p {
+  color: rgb(255, 255, 255);
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-size: 32px;
+}
+.container .nav-item a {
+  color: rgb(152, 152, 152);
+  transition: 1s ease;
+  font-size: 1.2em;
+}
+.container .nav-item a:hover {
+  color: rgb(186, 51, 51);
+}
+.container #home {
+  color: rgb(255, 255, 255);
+}
+.container .nav-item {
+  padding-left: 41px;
+}
+.container .navbar-nav {
+  width: 22%;
+}
+
+.work-projects {
+  display: grid;
+  grid-template-columns: 602px 602px 602px;
+  grid-template-rows: auto 452px 452px;
+  grid-template-areas: "header header header";
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+.work-projects .work-project-items1 {
+  grid-area: header;
+}
+.work-projects .work-project-items2 img {
+  width: 100%;
+  height: 48.3vh;
+}
+.work-projects .work-project-items3 img {
+  width: 100%;
+  height: 48.3vh;
+}
+.work-projects .work-project-items4 img {
+  width: 100%;
+  height: 48.3vh;
+}
+.work-projects .work-project-items5 img {
+  width: 100%;
+  height: 48.3vh;
+}
+.work-projects .work-project-items6 img {
+  width: 100%;
+  height: 48.3vh;
+}
+.work-projects .work-project-items7 img {
+  width: 100%;
+  height: 48.3vh;
+}
+.work-projects h1 {
+  font-size: 56.48px;
+  line-height: 84.72px;
+  letter-spacing: 5%;
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+.work-projects .project-item:hover {
+  box-shadow: 10px 8px 30px rgb(106, 126, 126);
+}/*# sourceMappingURL=works.css.map */
