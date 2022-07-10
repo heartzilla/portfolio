@@ -1,3 +1,163 @@
 .RTL {
   direction: rtl;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.all {
+  background-color: rgb(33, 31, 31);
+}
+
+.container .navbar-brand p {
+  color: rgb(255, 255, 255);
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-size: 32px;
+}
+.container .nav-item a {
+  color: rgb(152, 152, 152);
+  transition: 1s ease;
+  font-size: 1.2em;
+}
+.container .nav-item a:hover {
+  color: rgb(186, 51, 51);
+}
+.container #home {
+  color: rgb(255, 255, 255);
+}
+.container .nav-item {
+  padding-left: 41px;
+}
+.container .navbar-nav {
+  width: 22%;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 28% 40%;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+.main .main-items1 {
+  padding-top: 218px;
+  color: rgb(255, 255, 255);
+}
+.main .main-items1 .welcome {
+  font-weight: 150;
+  font-size: 25.4px;
+  line-height: 38.11px;
+  letter-spacing: 36%;
+  text-transform: uppercase;
+}
+.main .main-items1 h1 {
+  font-size: 67.11px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.main .main-items1 h2 {
+  font-family: "Questrial", sans-serif;
+  word-spacing: 60px;
+  padding-top: 119px;
+}
+.main .main-items1 .junior {
+  font-size: 19.89px;
+  line-height: 29.83px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  padding-bottom: 35.2px;
+}
+.main .main-items1 .download-cv p {
+  background: linear-gradient(180deg, #15B9B9 0%, #3C1DFF 100%);
+  width: 37.5%;
+  padding-bottom: 16.98px;
+  padding-top: 16.98px;
+  padding-left: 46.49px;
+  padding-right: 46.49px;
+  border-radius: 10px;
+}
+.main .main-items1 .download-cv a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.7s ease;
+}
+.main .main-items1 .download-cv a:hover {
+  color: rgb(239, 21, 21);
+}
+.main .main-items2 {
+  display: grid;
+  justify-content: flex-end;
+}
+
+.aboutme {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 28% 40%;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+.aboutme .aboutme-items1 {
+  background-image: url(./images/backimg.png);
+  background-repeat: no-repeat;
+  background-size: 71%;
+  position: relative;
+}
+.aboutme .aboutme-items1 img {
+  width: 71%;
+  position: absolute;
+  top: 35px;
+  left: 39px;
+}
+.aboutme .aboutme-items2 {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+.aboutme .aboutme-items2 h1 {
+  color: rgb(255, 255, 255);
+  font-size: 110px;
+  font-weight: 900;
+}
+.aboutme .aboutme-items2 #about {
+  color: rgb(81, 153, 255);
+}
+.aboutme .aboutme-items2 p {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  width: 65%;
+  font-size: 19px;
+}
+
+.myskills {
+  margin-left: 300px;
+  margin-top: 116px;
+}
+.myskills .skill-hr {
+  color: rgb(255, 255, 255);
+  width: 174.78px;
+  border-top: 2px solid rgb(255, 255, 255);
+}
+.myskills h1 {
+  font-size: 56.48px;
+  line-height: 84.72px;
+  letter-spacing: 5%;
+  color: rgb(255, 255, 255);
+}
+.myskills .carousel-inner.vv-3 .carousel-item.active,
+.myskills .carousel-inner.vv-3 .carousel-item-next,
+.myskills .carousel-inner.vv-3 .carousel-item-prev {
+  display: flex;
+}
+.myskills .carousel-inner.vv-3 .carousel-item-right.active,
+.myskills .carousel-inner.vv-3 .carousel-item-next {
+  transform: translateX(17%);
+}
+.myskills .carousel-inner.vv-3 .carousel-item-left.active,
+.myskills .carousel-inner.vv-3 .carousel-item-prev {
+  transform: translateX(-17%);
+}
+.myskills .carousel-inner.vv-3 .carousel-item-right,
+.myskills .carousel-inner.vv-3 .carousel-item-left {
+  transform: translateX(0);
 }/*# sourceMappingURL=main.css.map */
