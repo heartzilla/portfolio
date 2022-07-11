@@ -58,7 +58,7 @@ width: 22%;
     }
     h2{
       font-family: 'Questrial', sans-serif;
-      word-spacing: 60px;
+      word-spacing: 40px;
       padding-top: 119px;
     }
     .junior{
@@ -151,6 +151,7 @@ width: 22%;
     padding-top: 50px;
     padding-bottom: 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 90%;
     .coding{
@@ -223,9 +224,7 @@ width: 22%;
       font-weight: 100;
     }
     }
-   
-    
-   
+
   }
   .gradient{
     width: 488.42px;
@@ -327,6 +326,15 @@ width: 22%;
     color: rgb(239, 21, 21);
 
   }
+}
+#cplus{
+width: 106px;
+height: 125px;
+}
+#github{
+  width: 140px;
+  height: 125px;
+  
 }
 
 

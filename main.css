@@ -58,7 +58,7 @@
 }
 .main .main-items1 h2 {
   font-family: "Questrial", sans-serif;
-  word-spacing: 60px;
+  word-spacing: 40px;
   padding-top: 119px;
 }
 .main .main-items1 .junior {
@@ -148,6 +148,7 @@
   padding-top: 50px;
   padding-bottom: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 90%;
 }
@@ -302,4 +303,14 @@
 }
 .last-quest .download-cv a:hover {
   color: rgb(239, 21, 21);
+}
+
+#cplus {
+  width: 106px;
+  height: 125px;
+}
+
+#github {
+  width: 140px;
+  height: 125px;
 }/*# sourceMappingURL=main.css.map */
